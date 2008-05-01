@@ -14,6 +14,7 @@ Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
+BuildRequires: python-setuptools
 Url: http://wwwsearch.sourceforge.net/ClientCookie/
 
 %description
