@@ -2,7 +2,7 @@
 %define version 1.3.0
 %define unmangled_version 1.3.0
 %define unmangled_version 1.3.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Client-side HTTP cookie handling
 Name: python-clientcookie
