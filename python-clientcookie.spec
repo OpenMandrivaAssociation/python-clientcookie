@@ -46,3 +46,32 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc *.txt *.html
 %py_puresitedir/%{oname}*
+
+
+%changelog
+* Tue Nov 22 2011 Götz Waschk <waschk@mandriva.org> 1.3.0-6mdv2012.0
++ Revision: 732428
+- rebuild
+
+* Fri Nov 19 2010 Funda Wang <fwang@mandriva.org> 1.3.0-5mdv2011.0
++ Revision: 598979
+- rebuild for py2.7
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1.3.0-4mdv2011.0
++ Revision: 442079
+- rebuild
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 1.3.0-3mdv2009.1
++ Revision: 323539
+- rebuild
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 1.3.0-2mdv2009.0
++ Revision: 269020
+- rebuild early 2009.0 package (before pixel changes)
+
+* Thu May 01 2008 Götz Waschk <waschk@mandriva.org> 1.3.0-1mdv2009.0
++ Revision: 199798
+- fix buildrequires
+- import python-clientcookie
+
+
